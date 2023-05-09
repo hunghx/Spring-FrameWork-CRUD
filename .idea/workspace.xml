@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10fa6a8b-d350-44c5-82c1-ac0074a4ab6c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/Java_MD4_Session1_SpringMVC_CRUD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/createStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/editStudent.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/students.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/students.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/config/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/config/WebConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/controller/StudentController.class" afterDir="false" />
@@ -168,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683602562220</updated>
-      <workItem from="1683602564153" duration="9538000" />
+      <workItem from="1683602564153" duration="9900000" />
     </task>
     <servers />
   </component>
