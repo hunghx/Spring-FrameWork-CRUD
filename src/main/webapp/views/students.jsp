@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>Danh sách sinh viên</h1>
-<a href="<%=request.getContextPath()%>/views/createStudent.jsp">Create new Student</a>
+<a href="<%=request.getContextPath()%>/studentController/add">Create new Student</a>
 <table border="1" cellpadding="10" cellspacing="0">
     <thead>
     <tr>

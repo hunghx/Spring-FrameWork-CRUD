@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fa6a8b-d350-44c5-82c1-ac0074a4ab6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Java_MD4_Session1_SpringMVC_CRUD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/dao/StudentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/daoImp/StudentDAOImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/daoImp/StudentDAOImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/serviceImp/StudentServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/serviceImp/StudentServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/util/ConnectionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/classes/java/main/ra/model/util/ConnectionDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/libs/SpringMVC_CRUD_Demo-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/libs/SpringMVC_CRUD_Demo-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_CRUD_Demo/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/students.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/students.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -48,25 +43,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="2PaEvS9PjvBC5EuntuZsjJa9Wd8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Spring-FrameWork-CRUD&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8e72a68c010e8e9ee5cf12233c26d3d0&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.741" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.741" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
@@ -165,6 +163,9 @@
       <option name="presentableId" value="Default" />
       <updated>1683602562220</updated>
       <workItem from="1683602564153" duration="9900000" />
+      <workItem from="1683687024169" duration="49000" />
+      <workItem from="1683687163787" duration="7000" />
+      <workItem from="1683687199055" duration="2509000" />
     </task>
     <servers />
   </component>
