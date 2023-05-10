@@ -11,7 +11,10 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="qlsv" />
+          <node kind="schema">
+            <name qname="qlsv" />
+            <name qname="demologin" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>

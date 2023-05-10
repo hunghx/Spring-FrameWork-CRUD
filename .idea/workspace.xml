@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fa6a8b-d350-44c5-82c1-ac0074a4ab6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/service/user/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/service/user/UserServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/form-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/form-register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb/storage_v2/_src_/schema/qlsv.vgE1AA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb/storage_v2/_src_/schema/qlsv.vgE1AA.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ra/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ra/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/students.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/students.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/shop.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +56,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PaEvS9PjvBC5EuntuZsjJa9Wd8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -166,6 +180,8 @@
       <workItem from="1683687024169" duration="49000" />
       <workItem from="1683687163787" duration="7000" />
       <workItem from="1683687199055" duration="2509000" />
+      <workItem from="1683692372986" duration="5177000" />
+      <workItem from="1683708703413" duration="3289000" />
     </task>
     <servers />
   </component>

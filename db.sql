@@ -40,3 +40,26 @@ create procedure PROC_SEARCHBYNAME(nameSearch varchar(255) )
 begin
 select * from Student where name like concat('%',nameSearch,'%');
 end //;
+create table Accounts(
+                         id int primary key auto_increment,
+                         username varchar(255) unique ,
+                         password varchar(100),
+                         role tinyint default(0)
+);
+insert into Accounts(username, password,role) values
+                                                  ('admin123','123456',1),
+                                                  ('hung123','123456',0);
+
+delimiter //
+create procedure PROC_LOGIN(user varchar(255),pass varchar(100))
+begin
+SELECT * from Accounts where username like user and password like pass;
+end //;
+create procedure PROC_REGISTER(user varchar(255),pass varchar(100))
+begin
+INSERT INTO Accounts(username, password) value (user,pass);
+end //;
+create procedure PROC_FINDBYUSERNAME(user varchar(255))
+begin
+select * from Accounts where username like user;
+end //;

@@ -1,7 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
   <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.43">
-    <root id="1"/>
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <Grants>|root||root|127.0.0.1|ALTER|G
+|root||root|::1|ALTER|G
+|root||root|localhost|ALTER|G
+|root||root|127.0.0.1|ALTER ROUTINE|G
+|root||root|::1|ALTER ROUTINE|G
+|root||root|localhost|ALTER ROUTINE|G
+|root||root|127.0.0.1|CREATE|G
+|root||root|::1|CREATE|G
+|root||root|localhost|CREATE|G
+|root||root|127.0.0.1|CREATE ROUTINE|G
+|root||root|::1|CREATE ROUTINE|G
+|root||root|localhost|CREATE ROUTINE|G
+|root||root|127.0.0.1|CREATE TABLESPACE|G
+|root||root|::1|CREATE TABLESPACE|G
+|root||root|localhost|CREATE TABLESPACE|G
+|root||root|127.0.0.1|CREATE TEMPORARY TABLES|G
+|root||root|::1|CREATE TEMPORARY TABLES|G
+|root||root|localhost|CREATE TEMPORARY TABLES|G
+|root||root|127.0.0.1|CREATE USER|G
+|root||root|::1|CREATE USER|G
+|root||root|localhost|CREATE USER|G
+|root||root|127.0.0.1|CREATE VIEW|G
+|root||root|::1|CREATE VIEW|G
+|root||root|localhost|CREATE VIEW|G
+|root||root|127.0.0.1|DELETE|G
+|root||root|::1|DELETE|G
+|root||root|localhost|DELETE|G
+|root||root|127.0.0.1|DELETE HISTORY|G
+|root||root|::1|DELETE HISTORY|G
+|root||root|localhost|DELETE HISTORY|G
+|root||root|127.0.0.1|DROP|G
+|root||root|::1|DROP|G
+|root||root|localhost|DROP|G
+|root||root|127.0.0.1|EVENT|G
+|root||root|::1|EVENT|G
+|root||root|localhost|EVENT|G
+|root||root|127.0.0.1|EXECUTE|G
+|root||root|::1|EXECUTE|G
+|root||root|localhost|EXECUTE|G
+|root||root|127.0.0.1|FILE|G
+|root||root|::1|FILE|G
+|root||root|localhost|FILE|G
+|root||root|127.0.0.1|INDEX|G
+|root||root|::1|INDEX|G
+|root||root|localhost|INDEX|G
+|root||root|127.0.0.1|INSERT|G
+|root||root|::1|INSERT|G
+|root||root|localhost|INSERT|G
+|root||root|127.0.0.1|LOCK TABLES|G
+|root||root|::1|LOCK TABLES|G
+|root||root|localhost|LOCK TABLES|G
+|root||root|127.0.0.1|PROCESS|G
+|root||root|::1|PROCESS|G
+|root||root|localhost|PROCESS|G
+|root||root|127.0.0.1|REFERENCES|G
+|root||root|::1|REFERENCES|G
+|root||root|localhost|REFERENCES|G
+|root||root|127.0.0.1|RELOAD|G
+|root||root|::1|RELOAD|G
+|root||root|localhost|RELOAD|G
+|root||root|127.0.0.1|REPLICATION CLIENT|G
+|root||root|::1|REPLICATION CLIENT|G
+|root||root|localhost|REPLICATION CLIENT|G
+|root||root|127.0.0.1|REPLICATION SLAVE|G
+|root||root|::1|REPLICATION SLAVE|G
+|root||root|localhost|REPLICATION SLAVE|G
+|root||root|127.0.0.1|SELECT|G
+|root||root|::1|SELECT|G
+|root||root|localhost|SELECT|G
+|root||root|127.0.0.1|SHOW DATABASES|G
+|root||root|::1|SHOW DATABASES|G
+|root||root|localhost|SHOW DATABASES|G
+|root||root|127.0.0.1|SHOW VIEW|G
+|root||root|::1|SHOW VIEW|G
+|root||root|localhost|SHOW VIEW|G
+|root||root|127.0.0.1|SHUTDOWN|G
+|root||root|::1|SHUTDOWN|G
+|root||root|localhost|SHUTDOWN|G
+|root||root|127.0.0.1|SUPER|G
+|root||root|::1|SUPER|G
+|root||root|localhost|SUPER|G
+|root||root|127.0.0.1|TRIGGER|G
+|root||root|::1|TRIGGER|G
+|root||root|localhost|TRIGGER|G
+|root||root|127.0.0.1|UPDATE|G
+|root||root|::1|UPDATE|G
+|root||root|localhost|UPDATE|G
+|root||root|127.0.0.1|grant option|G
+|root||root|::1|grant option|G
+|root||root|localhost|grant option|G
+phpmyadmin|schema||pma|localhost|DELETE|G
+phpmyadmin|schema||pma|localhost|INSERT|G
+phpmyadmin|schema||pma|localhost|SELECT|G
+phpmyadmin|schema||pma|localhost|UPDATE|G
+test|schema||&apos;&apos;||ALTER|G
+test|schema||&apos;&apos;||CREATE|G
+test|schema||&apos;&apos;||CREATE ROUTINE|G
+test|schema||&apos;&apos;||CREATE TEMPORARY TABLES|G
+test|schema||&apos;&apos;||CREATE VIEW|G
+test|schema||&apos;&apos;||DELETE|G
+test|schema||&apos;&apos;||DELETE HISTORY|G
+test|schema||&apos;&apos;||DROP|G
+test|schema||&apos;&apos;||EVENT|G
+test|schema||&apos;&apos;||INDEX|G
+test|schema||&apos;&apos;||INSERT|G
+test|schema||&apos;&apos;||LOCK TABLES|G
+test|schema||&apos;&apos;||REFERENCES|G
+test|schema||&apos;&apos;||SELECT|G
+test|schema||&apos;&apos;||SHOW VIEW|G
+test|schema||&apos;&apos;||TRIGGER|G
+test|schema||&apos;&apos;||UPDATE|G
+test\\_%|schema||&apos;&apos;||ALTER|G
+test\\_%|schema||&apos;&apos;||CREATE|G
+test\\_%|schema||&apos;&apos;||CREATE ROUTINE|G
+test\\_%|schema||&apos;&apos;||CREATE TEMPORARY TABLES|G
+test\\_%|schema||&apos;&apos;||CREATE VIEW|G
+test\\_%|schema||&apos;&apos;||DELETE|G
+test\\_%|schema||&apos;&apos;||DELETE HISTORY|G
+test\\_%|schema||&apos;&apos;||DROP|G
+test\\_%|schema||&apos;&apos;||EVENT|G
+test\\_%|schema||&apos;&apos;||INDEX|G
+test\\_%|schema||&apos;&apos;||INSERT|G
+test\\_%|schema||&apos;&apos;||LOCK TABLES|G
+test\\_%|schema||&apos;&apos;||REFERENCES|G
+test\\_%|schema||&apos;&apos;||SELECT|G
+test\\_%|schema||&apos;&apos;||SHOW VIEW|G
+test\\_%|schema||&apos;&apos;||TRIGGER|G
+test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
+      <ServerVersion>10.4.27</ServerVersion>
+    </root>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
     </collation>
@@ -1054,131 +1186,286 @@
     <schema id="338" parent="1" name="test">
       <CollationName>latin1_swedish_ci</CollationName>
     </schema>
-    <user id="339" parent="1" name="pma">
+    <schema id="339" parent="1" name="demologin">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <user id="340" parent="1" name="pma">
       <Host>localhost</Host>
-    </user>
-    <user id="340" parent="1" name="root">
-      <Host>127.0.0.1</Host>
     </user>
     <user id="341" parent="1" name="root">
-      <Host>::1</Host>
+      <Host>127.0.0.1</Host>
     </user>
     <user id="342" parent="1" name="root">
+      <Host>::1</Host>
+    </user>
+    <user id="343" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <routine id="343" parent="332" name="PROC_CREATESTUDENT">
+    <routine id="344" parent="332" name="PROC_CREATESTUDENT">
       <Definer>root@localhost</Definer>
       <RoutineKind>procedure</RoutineKind>
       <SourceTextLength>103</SourceTextLength>
     </routine>
-    <routine id="344" parent="332" name="PROC_DELETESTUDENT">
+    <routine id="345" parent="332" name="PROC_DELETESTUDENT">
       <Definer>root@localhost</Definer>
       <RoutineKind>procedure</RoutineKind>
       <SourceTextLength>53</SourceTextLength>
     </routine>
-    <routine id="345" parent="332" name="PROC_FINDBYID">
+    <routine id="346" parent="332" name="PROC_FINDBYID">
       <Definer>root@localhost</Definer>
       <RoutineKind>procedure</RoutineKind>
       <SourceTextLength>56</SourceTextLength>
     </routine>
-    <routine id="346" parent="332" name="PROC_GETALL">
+    <routine id="347" parent="332" name="PROC_FINDBYUSERNAME">
+      <Definer>root@localhost</Definer>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>62</SourceTextLength>
+    </routine>
+    <routine id="348" parent="332" name="PROC_GETALL">
       <Definer>root@localhost</Definer>
       <RoutineKind>procedure</RoutineKind>
       <SourceTextLength>36</SourceTextLength>
     </routine>
-    <routine id="347" parent="332" name="PROC_SEARCHBYNAME">
+    <routine id="349" parent="332" name="PROC_LOGIN">
+      <Definer>root@localhost</Definer>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>85</SourceTextLength>
+    </routine>
+    <routine id="350" parent="332" name="PROC_REGISTER">
+      <Definer>root@localhost</Definer>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>73</SourceTextLength>
+    </routine>
+    <routine id="351" parent="332" name="PROC_SEARCHBYNAME">
       <Definer>root@localhost</Definer>
       <RoutineKind>procedure</RoutineKind>
       <SourceTextLength>79</SourceTextLength>
     </routine>
-    <routine id="348" parent="332" name="PROC_UPDATESTUDENT">
+    <routine id="352" parent="332" name="PROC_UPDATESTUDENT">
       <Definer>root@localhost</Definer>
       <RoutineKind>procedure</RoutineKind>
       <SourceTextLength>102</SourceTextLength>
     </routine>
-    <table id="349" parent="332" name="student">
+    <table id="353" parent="332" name="accounts">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <argument id="350" parent="343" name="nameNew">
+    <table id="354" parent="332" name="student">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <routine id="355" parent="339" name="PROC_FINDBYUSERNAME">
+      <Definer>root@localhost</Definer>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>62</SourceTextLength>
+    </routine>
+    <routine id="356" parent="339" name="PROC_LOGIN">
+      <Definer>root@localhost</Definer>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>85</SourceTextLength>
+    </routine>
+    <routine id="357" parent="339" name="PROC_REGISTER">
+      <Definer>root@localhost</Definer>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>73</SourceTextLength>
+    </routine>
+    <table id="358" parent="339" name="accounts">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <argument id="359" parent="344" name="nameNew">
       <DataType>varchar(255)|0s</DataType>
       <Position>1</Position>
     </argument>
-    <argument id="351" parent="343" name="ageNew">
+    <argument id="360" parent="344" name="ageNew">
       <DataType>int(11)|0s</DataType>
       <Position>2</Position>
     </argument>
-    <argument id="352" parent="343" name="genNew">
+    <argument id="361" parent="344" name="genNew">
       <DataType>bit(1)|0s</DataType>
       <Position>3</Position>
     </argument>
-    <argument id="353" parent="343" name="addressNew">
+    <argument id="362" parent="344" name="addressNew">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </argument>
-    <argument id="354" parent="344" name="idDel">
+    <argument id="363" parent="345" name="idDel">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </argument>
-    <argument id="355" parent="345" name="idSearch">
+    <argument id="364" parent="346" name="idSearch">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </argument>
-    <argument id="356" parent="347" name="nameSearch">
+    <argument id="365" parent="347" name="user">
       <DataType>varchar(255)|0s</DataType>
       <Position>1</Position>
     </argument>
-    <argument id="357" parent="348" name="idUp">
+    <argument id="366" parent="349" name="user">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="367" parent="349" name="pass">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </argument>
+    <argument id="368" parent="350" name="user">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="369" parent="350" name="pass">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </argument>
+    <argument id="370" parent="351" name="nameSearch">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="371" parent="352" name="idUp">
       <DataType>int(11)|0s</DataType>
       <Position>1</Position>
     </argument>
-    <argument id="358" parent="348" name="nameUp">
+    <argument id="372" parent="352" name="nameUp">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </argument>
-    <argument id="359" parent="348" name="ageUp">
+    <argument id="373" parent="352" name="ageUp">
       <DataType>int(11)|0s</DataType>
       <Position>3</Position>
     </argument>
-    <argument id="360" parent="348" name="genUp">
+    <argument id="374" parent="352" name="genUp">
       <DataType>bit(1)|0s</DataType>
       <Position>4</Position>
     </argument>
-    <argument id="361" parent="348" name="addressUp">
+    <argument id="375" parent="352" name="addressUp">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </argument>
-    <column id="362" parent="349" name="id">
-      <AutoIncrement>4</AutoIncrement>
+    <column id="376" parent="353" name="id">
+      <AutoIncrement>3</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="363" parent="349" name="name">
+    <column id="377" parent="353" name="username">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="364" parent="349" name="age">
-      <DataType>int(11)|0s</DataType>
+    <column id="378" parent="353" name="password">
+      <DataType>varchar(100)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="365" parent="349" name="gen">
-      <DataType>bit(1)|0s</DataType>
+    <column id="379" parent="353" name="role">
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
       <Position>4</Position>
     </column>
-    <column id="366" parent="349" name="address">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>5</Position>
-    </column>
-    <index id="367" parent="349" name="PRIMARY">
+    <index id="380" parent="353" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="368" parent="349" name="PRIMARY">
+    <index id="381" parent="353" name="username">
+      <ColNames>username</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="382" parent="353" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="383" parent="353" name="username">
+      <UnderlyingIndexName>username</UnderlyingIndexName>
+    </key>
+    <column id="384" parent="354" name="id">
+      <AutoIncrement>18</AutoIncrement>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="385" parent="354" name="name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="386" parent="354" name="age">
+      <DataType>int(11)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="387" parent="354" name="gen">
+      <DataType>bit(1)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="388" parent="354" name="address">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <index id="389" parent="354" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="390" parent="354" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <argument id="391" parent="355" name="user">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="392" parent="356" name="user">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="393" parent="356" name="pass">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </argument>
+    <argument id="394" parent="357" name="user">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="395" parent="357" name="pass">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </argument>
+    <column id="396" parent="358" name="id">
+      <AutoIncrement>3</AutoIncrement>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="397" parent="358" name="username">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="398" parent="358" name="password">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="399" parent="358" name="role">
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>4</Position>
+    </column>
+    <index id="400" parent="358" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="401" parent="358" name="username">
+      <ColNames>username</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="402" parent="358" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="403" parent="358" name="username">
+      <UnderlyingIndexName>username</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

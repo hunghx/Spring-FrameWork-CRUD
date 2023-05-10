@@ -8,6 +8,8 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
+<a href="<%=request.getContextPath()%>/userController/form-register">Đăng kí</a><br>
+<a href="<%=request.getContextPath()%>/userController/form-login">Đăng nhập</a><br>
 <a href="<%=request.getContextPath()%>/studentController/GetAll">Hello Servlet</a>
 </body>
 </html>

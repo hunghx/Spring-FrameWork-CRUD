@@ -7,6 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 import ra.model.entity.Student;
 import ra.model.service.student.StudentServiceImp;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @Controller
@@ -47,5 +48,11 @@ public class StudentController {
     public String update(@ModelAttribute("student") Student stu, Model model){
         studentServiceImp.update(stu);
         return "redirect:GetAll";
+    }
+    @GetMapping("/login")
+    public String login(HttpServletRequest request) {
+        Student student = new Student(1,"hùng",23,true,"Nghệ AN");
+        request.getSession().setAttribute("name",student);
+        return "home";
     }
 }

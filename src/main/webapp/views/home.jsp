@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Admin
@@ -12,5 +13,6 @@
 </head>
 <body>
 <h1>Đây là trang chủ</h1>
+<p>Chào mừng khách hàng ${userlogin.username} đến trang web </p>
 </body>
 </html>
