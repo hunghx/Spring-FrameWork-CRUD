@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fa6a8b-d350-44c5-82c1-ac0074a4ab6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/controller/HomeCotroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/entity/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/entity/UserLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/service/cart/CartServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/service/cart/IcartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/service/product/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/model/service/product/ProductServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb/storage_v2/_src_/schema/qlsv.vgE1AA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b524ca5a-8cdc-4fc4-9894-08e2758d56bb/storage_v2/_src_/schema/qlsv.vgE1AA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/model/service/user/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/model/service/user/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/model/service/user/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/model/service/user/UserServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/model/util/ConnectionToDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/model/util/ConnectionToDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +168,9 @@
       <workItem from="1683708703413" duration="3289000" />
       <workItem from="1684286348451" duration="12422000" />
       <workItem from="1684371632811" duration="2325000" />
-      <workItem from="1684373981269" duration="848000" />
+      <workItem from="1684373981269" duration="1980000" />
+      <workItem from="1684401903873" duration="17000" />
+      <workItem from="1684402571706" duration="137000" />
     </task>
     <servers />
   </component>
